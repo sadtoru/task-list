@@ -1,4 +1,6 @@
-export const TASKS = [
+import { Task } from "./task"
+
+export const TASKS: Task[] = [
     {
         id: 1,
         text: 'Terminar el primer modulo de angular',
