@@ -10,6 +10,7 @@ import { Task } from 'src/app/task';
 export class TasksComponent implements OnInit {
   
   tasks: Task[] = TASKS;
+  
 
   constructor() { }
 
