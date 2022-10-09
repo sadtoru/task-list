@@ -34,4 +34,8 @@ private apiUrl = 'http://localhost:5001/tasks'
     return this.http.put<Task>(url, task, httpOptions);
 
   }
+
+  addTask(task: Task) : Observable<Task>{
+    return this.http.post<Task>(this.apiUrl, task, httpOptions);
+  }
 }
