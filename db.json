@@ -29,6 +29,12 @@
       "day": "aaaaaa",
       "reminder": true,
       "id": 5
+    },
+    {
+      "text": "REPRESENTANTE DE ENVÍOS",
+      "day": "aaaaaa",
+      "reminder": false,
+      "id": 6
     }
   ]
 }
